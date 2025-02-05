@@ -33,6 +33,8 @@ namespace fs_evening_sqlite_demo_console
         }
 
         public DbSet<Student> Students { get; set; }
+        public DbSet<Movie> Movies { get; set; }
+        public DbSet<Book> Books { get; set; }
 
 
     }
